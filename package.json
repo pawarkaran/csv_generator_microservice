@@ -1,0 +1,28 @@
+{
+  "name": "csv_generator_thread_based",
+  "version": "1.0.0",
+  "description": "A Node.js service that generates CSV files by aggregating data from multiple APIs with worker thread support.",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node src/app.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/app.js",
+    "format": "prettier --write .",
+    "test": "echo \"No tests specified yet\""
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "eslint-config-prettier": "^10.0.1",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "prettier": "^3.4.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
