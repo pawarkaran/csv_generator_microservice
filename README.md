@@ -7,7 +7,6 @@ A Node.js service that generates CSV files by aggregating data from multiple API
 - Async API data fetching
 - Worker thread pool for CSV generation
 - Structured logging with Pino
-- Docker support
 - Comprehensive error handling
 
 ## Setup
@@ -53,7 +52,3 @@ docker-compose up --build
 
 CSV files are stored in the `/output` directory
 Logs are stored in the `/logs` directory
-
-## License
-
-MIT
