@@ -38,12 +38,6 @@ WORKER_POOL_SIZE=4
 npm start
 ```
 
-## Docker Usage
-
-```bash
-docker-compose up --build
-```
-
 ## API Endpoint
 
 - `GET /api/generate-csv`: Generates CSV file from aggregated API data
